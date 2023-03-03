@@ -74,13 +74,7 @@ body::-webkit-scrollbar-track {
   justify-content: left;
 }
 .cont--ctg::-webkit-scrollbar {
-  height: 0.3rem;
-}
-.cont--ctg::-webkit-scrollbar-thumb {
-  background: var(--alto, #d8d8d8);
-}
-.cont--ctg::-webkit-scrollbar-thumb:hover {
-  background: var(--silver, #b9b9b9);
+  height: 0rem;
 }
 .cont--ctg::-webkit-scrollbar-track {
   background: transparent;
