@@ -23,10 +23,13 @@ html {
   background: var(--white, #fcfcfc);
 }
 body::-webkit-scrollbar {
-  height: 0.3rem;
+  width: 0.5rem;
 }
 body::-webkit-scrollbar-thumb {
   background: var(--alto, #d8d8d8);
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--silver, #b9b9b9);
 }
 body::-webkit-scrollbar-track {
   background: transparent;
