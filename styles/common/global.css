@@ -61,7 +61,6 @@ body::-webkit-scrollbar-track {
 }
 
 .mn {
-  padding: 0rem 2rem;
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -133,6 +132,7 @@ body::-webkit-scrollbar-track {
   color: var(--black);
 }
 .mn-imgs {
+  padding: 0rem 2rem;
   margin: clamp(5rem, 7vw, 8rem) 0;
   width: min(100%, 120rem);
   display: flex;
