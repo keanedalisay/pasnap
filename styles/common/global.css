@@ -163,6 +163,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   font-family: "Rubik", Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
+  color: var(--black, #414141);
 }
 .fig_dialog {
   width: 100%;
