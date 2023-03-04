@@ -199,6 +199,9 @@ body::-webkit-scrollbar-track {
 .notice-main_logo {
   width: clamp(8rem, 15vw, 12rem);
   height: clamp(8rem, 15vw, 12rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .notice-hdng {
   position: relative;
