@@ -212,6 +212,7 @@ body::-webkit-scrollbar-track {
   font-size: clamp(1rem, 2vw, 1.2rem);
 }
 .socials {
+  margin-left: 3rem;
   padding-right: 2rem;
   width: min(100%, 30rem);
   height: 8rem;
@@ -235,12 +236,13 @@ body::-webkit-scrollbar-track {
 .social:focus-visible > svg > path {
   fill: var(--btrswt, #ff6f6f);
 }
-@media screen and (max-width: 819px) {
+@media screen and (max-width: 885px) {
   .ftr {
     flex-flow: column-reverse wrap;
     justify-content: center;
   }
   .socials {
+    margin-left: 0;
     padding-right: 0;
   }
 }
