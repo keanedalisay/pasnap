@@ -42,6 +42,7 @@ body::-webkit-scrollbar-track {
   overflow: auto;
 }
 .banner {
+  width: 100%;
   position: relative;
 }
 .banner-hdng {
