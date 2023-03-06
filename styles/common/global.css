@@ -41,6 +41,20 @@ body::-webkit-scrollbar-track {
   align-items: center;
   overflow: auto;
 }
+.banner {
+  position: relative;
+}
+.banner-hdng {
+  padding: 2rem;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  text-align: center;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  z-index: 999;
+}
 
 .hdr {
   height: 8rem;
