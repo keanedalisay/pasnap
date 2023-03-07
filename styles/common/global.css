@@ -200,11 +200,14 @@ body::-webkit-scrollbar-track {
 }
 
 .ftr {
-  padding: 2rem 2rem 1rem 2rem;
+  padding: 2rem 2rem 1.5rem 2rem;
+  position: relative;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 -0.1rem 0.3rem #d8d8d8;
+  z-index: 2;
 }
 .notice {
   width: min(100%, 50rem);
