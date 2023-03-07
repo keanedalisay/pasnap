@@ -98,7 +98,7 @@
   height: clamp(50rem, 90vw, 90rem);
 }
 .banner--ctgrs-hdng_img {
-  width: clamp(40rem, 70vw, 110rem);
+  width: clamp(40rem, 70vw, 90rem);
   position: absolute;
   top: 50%;
   left: min(-10%, -20rem);
