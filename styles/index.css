@@ -5,11 +5,12 @@
 }
 
 .banner--main-hdng {
-  width: min(90%, 50rem);
+  padding: clamp(1.5rem, 3vw, 2rem) clamp(1.5rem, 3vw, 3.5rem);
   top: 50%;
   left: 50%;
   background: #ff6f6f;
-  font-size: clamp(3rem, 7vw, 4rem);
+  white-space: nowrap;
+  font-size: clamp(2rem, 6vw, 5rem);
   color: var(--white);
   transform: translate(-50%, -50%);
 }
