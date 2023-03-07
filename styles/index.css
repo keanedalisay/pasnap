@@ -44,59 +44,59 @@
 .hov_fig[data-cnt="home_1"] {
   bottom: clamp(20rem, 50vw, 45rem);
   right: 25rem;
-  animation: hov_fig_anim 30s ease-in-out infinite;
+  animation: hov_fig_anim 15s ease-in-out infinite;
 }
 .hov_fig[data-cnt="home_2"] {
   top: clamp(0rem, 15vw, 20rem);
   right: clamp(55rem, 40vw, 70rem);
   z-index: 1;
-  animation: hov_fig_anim 20s 3s ease-in-out infinite;
+  animation: hov_fig_anim 10s 3s ease-in-out infinite;
 }
 .hov_fig[data-cnt="home_4"] {
   bottom: clamp(0rem, 10vw, 10rem);
   right: 10rem;
-  animation: hov_fig_anim 30s 7s ease-in-out infinite;
+  animation: hov_fig_anim 15s 7s ease-in-out infinite;
 }
 .hov_fig[data-cnt="home_5"] {
   bottom: -5rem;
   left: clamp(55rem, 50vw, 65rem);
-  animation: hov_fig_anim 20s 9s ease-in-out infinite;
+  animation: hov_fig_anim 10s 9s ease-in-out infinite;
 }
 .hov_fig[data-cnt="home_8"] {
   top: -20rem;
   right: clamp(65rem, 50vw, 105rem);
-  animation: hov_fig_anim 30s 15s ease-in-out infinite;
+  animation: hov_fig_anim 15s 15s ease-in-out infinite;
 }
 .hov_fig[data-cnt="home_9"] {
   top: clamp(35rem, 40vw, 45rem);
   right: 45rem;
-  animation: hov_fig_anim 20s 1s ease-in-out infinite;
+  animation: hov_fig_anim 10s 1s ease-in-out infinite;
 }
 .hov_fig[data-cnt="home_11"] {
   bottom: clamp(0rem, 30vw, 20rem);
   right: clamp(0rem, 20vw, 40rem);
-  animation: hov_fig_anim 30s 17s ease-in-out infinite;
+  animation: hov_fig_anim 15s 17s ease-in-out infinite;
 }
 .hov_fig[data-cnt="home_12"] {
   bottom: -20rem;
   left: clamp(0rem, 10vw, 5rem);
-  animation: hov_fig_anim 20s ease-in-out infinite;
+  animation: hov_fig_anim 10s ease-in-out infinite;
 }
 .hov_fig[data-cnt="home_14"] {
   bottom: clamp(25rem, 50vw, 35rem);
   left: -5rem;
   z-index: -1;
-  animation: hov_fig_anim 30s 10s ease-in-out infinite;
+  animation: hov_fig_anim 15s 10s ease-in-out infinite;
 }
 .hov_fig[data-cnt="home_15"] {
   top: clamp(0rem, 10vw, 10rem);
   right: -5rem;
-  animation: hov_fig_anim 20s 14s ease-in-out infinite;
+  animation: hov_fig_anim 10s 14s ease-in-out infinite;
 }
 .hov_fig[data-cnt="home_16"] {
   bottom: 10rem;
   right: clamp(100rem, 50vw, 150rem);
-  animation: hov_fig_anim 30s 5s ease-in-out infinite;
+  animation: hov_fig_anim 15s 5s ease-in-out infinite;
 }
 @keyframes hov_fig_anim {
   0% {
