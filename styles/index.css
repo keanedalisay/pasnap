@@ -13,7 +13,6 @@
   color: var(--white);
   transform: translate(-50%, -50%);
 }
-
 .cont--hov_figs {
   justify-content: initial;
   align-items: initial;
@@ -92,4 +91,87 @@
   100% {
     opacity: 0;
   }
+}
+
+.banner--ctgrs {
+  height: clamp(50rem, 90vw, 90rem);
+}
+.banner--ctgrs-hdng_img {
+  width: clamp(40rem, 70vw, 110rem);
+  position: absolute;
+  top: 50%;
+  left: min(-10%, -20rem);
+  transform: translate(0%, -50%);
+  object-fit: cover;
+}
+@media screen and (max-width: 480px) {
+  .banner--ctgrs-hdng_img {
+    top: 75%;
+  }
+}
+.banner--ctgrs-hdng {
+  margin: 0 2rem;
+  padding: clamp(1.5rem, 3vw, 2rem) clamp(1rem, 3vw, 3.5rem);
+  top: 20%;
+  right: clamp(0%, 10vw, 10%);
+  background: var(--btrswt);
+  font-size: clamp(2rem, 4vw, 4rem);
+  color: var(--white);
+}
+.pastry-ctgrs {
+  margin-right: 2rem;
+  width: min(50%, 50rem);
+  position: absolute;
+  top: 50%;
+  right: clamp(0%, 10vw, 10%);
+  z-index: 0;
+}
+.cont-pastry_ctgrs {
+  padding: 0.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, clamp(10rem, 20vw, 16rem));
+  grid-auto-flow: column;
+  justify-content: left;
+  column-gap: clamp(2rem, 3vw, 4rem);
+}
+.cont-pastry_ctgrs::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 1rem;
+  height: 100%;
+  background: linear-gradient(90deg, #00000000 0%, 40%, #fcfcfc 70%);
+}
+.cont-pastry_ctgrs::-webkit-scrollbar {
+  height: 0;
+}
+.pastry {
+  margin-right: clamp(2rem, 3vw, 4rem);
+  padding: 1rem;
+  width: clamp(10rem, 20vw, 16rem);
+  height: clamp(12rem, 20vw, 18rem);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background: #d8d8d82a;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: var(--btrswt, #ff6f6f);
+}
+.pastry:hover,
+.pastry:focus-visible {
+  background: var(--btrswt, #ff6f6f);
+  color: var(--white, #fcfcfc);
+}
+.pastry-img {
+  width: clamp(5rem, 10vw, 8rem);
+  height: clamp(5rem, 10vw, 8rem);
+  border-radius: 1rem;
+  object-fit: cover;
+}
+.pastry-txt {
+  margin-top: 2rem;
+  font-size: clamp(1.4rem, 2vw, 2rem);
+  font-weight: 700;
 }
