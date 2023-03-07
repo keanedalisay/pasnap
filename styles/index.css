@@ -178,3 +178,23 @@
   font-size: clamp(1.4rem, 2vw, 2rem);
   font-weight: 700;
 }
+
+.banner--prps {
+  height: clamp(40rem, 60vw, 50rem);
+  overflow: hidden;
+}
+.banner--prps-hdng_img {
+  width: clamp(50rem, 60vw, 70rem);
+  height: clamp(50rem, 60vw, 70rem);
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.banner--prps-hdng {
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-size: clamp(2rem, 5vw, 5rem);
+  color: var(--btrswt, #ff6f6f);
+}
