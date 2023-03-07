@@ -147,7 +147,6 @@
   height: 0;
 }
 .pastry {
-  margin-right: clamp(2rem, 3vw, 4rem);
   padding: 1rem;
   width: clamp(10rem, 20vw, 16rem);
   height: clamp(12rem, 20vw, 18rem);
@@ -159,6 +158,9 @@
   border-radius: 1rem;
   text-decoration: none;
   color: var(--btrswt, #ff6f6f);
+}
+.pastry:last-of-type {
+  margin-right: 2rem;
 }
 .pastry:hover,
 .pastry:focus-visible {
