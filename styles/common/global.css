@@ -16,8 +16,9 @@
   box-sizing: border-box;
 }
 mark {
-  padding: 0rem 1rem;
+  padding: 0.1rem 1rem;
   background: var(--btrswt, #ff6f6f);
+  border-radius: 0.8rem;
   color: var(--white, #fcfcfc);
 }
 
@@ -53,9 +54,6 @@ body::-webkit-scrollbar-track {
 .banner-hdng {
   padding: 2rem;
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 1rem;
   text-align: center;
   font-family: "Rubik", Arial, Helvetica, sans-serif;
@@ -178,7 +176,7 @@ body::-webkit-scrollbar-track {
 .fig_alert_box-hdng {
   font-size: clamp(2rem, 5vw, 4rem);
   text-align: center;
-  line-height: clamp(2.7rem, 7vw, 5.7rem);
+  line-height: clamp(3rem, 8vw, 5.7rem);
 }
 .fig_alert_box-txt {
   margin-top: 4rem;
