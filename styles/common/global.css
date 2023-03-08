@@ -101,6 +101,7 @@ body::-webkit-scrollbar-track {
   z-index: 1;
 }
 .cont--ctg {
+  margin: 0 1rem;
   padding: 0.5rem;
   column-gap: 4rem;
   flex-flow: row nowrap;
