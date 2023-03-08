@@ -15,6 +15,11 @@
   border: none;
   box-sizing: border-box;
 }
+mark {
+  padding: 0rem 1rem;
+  background: var(--btrswt, #ff6f6f);
+  color: var(--white, #fcfcfc);
+}
 
 html {
   font-size: 10px;
@@ -152,11 +157,33 @@ body::-webkit-scrollbar-track {
   padding: 0rem 2rem;
   margin: clamp(5rem, 7vw, 8rem) 0;
   width: min(100%, 120rem);
+  min-height: min(90vw, 50rem);
+  position: relative;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   gap: clamp(3rem, 5vw, 4rem) clamp(4rem, 5vw, 5rem);
+}
+.fig_alert_box {
+  padding: 1rem 2rem;
+  width: min(80%, 70rem);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 1rem;
+  color: var(--btrswt);
+  transform: translate(-50%, -50%);
+}
+.fig_alert_box-hdng {
+  font-size: clamp(2rem, 5vw, 4rem);
+  text-align: center;
+  line-height: clamp(2.7rem, 7vw, 5.7rem);
+}
+.fig_alert_box-txt {
+  margin-top: 4rem;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  text-align: center;
 }
 .fig {
   width: min(100%, 30rem);
