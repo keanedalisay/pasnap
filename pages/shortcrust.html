@@ -9,25 +9,15 @@
     <meta name="application-name" content="PaSnap">
     <title>PaSnap</title>
     <link rel="stylesheet" href="../styles/common.css">
+    <script src="../scripts/load_imgs.js" type="module" defer></script>
     <style>
         .ctg:nth-of-type(1) {
             background: #fcfcfcd7;
         }
     </style>
-    <script defer>
-        // if javascript is enabled, 
-
-        // <button class="fig">
-        //     <img class="fig-img" src="../assets/imgs/shortcrust/one.jpg" alt="">
-        //         <p class="fig-txt">Lorem ipsum deloreum...</p>
-        //         <div class="fig_dialog">
-        //             <p class="fig_dialog-txt">Open</p>
-        //         </div>
-        // </button> 
-    </script>
 </head>
 
-<body>
+<body data-ctg="shortcrust">
     <header class="hdr">
         <a href="../index.html" class="hdr-logo"><img src="../assets/icons/pasnap_icon.svg" alt="PaSnap"></a>
     </header>
@@ -66,7 +56,7 @@
                 </a>
             </nav>
         </section>
-        <section class="mn-imgs">
+        <section class="mn-imgs" data-slctr="mn_imgs">
             <div class="fig_alert_box">
                 <h1 class="fig_alert_box-hdng">Either <mark>JavaScript</mark> is disabled or you have <mark>little to no
                         Internet</mark> connection.

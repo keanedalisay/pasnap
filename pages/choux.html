@@ -9,6 +9,7 @@
     <meta name="application-name" content="PaSnap">
     <title>PaSnap</title>
     <link rel="stylesheet" href="../styles/common.css">
+    <script src="../scripts/load_imgs.js" type="module" defer></script>
     <style>
         .ctg:nth-of-type(5) {
             background: #fcfcfcd7;
@@ -16,7 +17,7 @@
     </style>
 </head>
 
-<body>
+<body data-ctg="choux">
     <header class="hdr">
         <a href="../index.html" class="hdr-logo"><img src="../assets/icons/pasnap_icon.svg" alt="PaSnap"></a>
     </header>
@@ -55,7 +56,7 @@
                 </a>
             </nav>
         </section>
-        <section class="mn-imgs">
+        <section class="mn-imgs" data-slctr="mn_imgs">
             <div class="fig_alert_box">
                 <h1 class="fig_alert_box-hdng">Either <mark>JavaScript</mark> is disabled or you have <mark>little to no
                         Internet</mark> connection.
