@@ -162,6 +162,40 @@
 .cont-pastry_ctgrs::-webkit-scrollbar {
   height: 0;
 }
+.crsel_widget {
+  min-width: 14rem;
+  position: absolute;
+  top: -60%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+@media screen and (min-width: 670px) {
+  .crsel_widget {
+    top: -50%;
+  }
+}
+.crsel_btn {
+  margin: 0 clamp(0.2rem, 5vw, 1rem);
+  width: 5rem;
+  height: 5rem;
+  background: transparent;
+}
+.crsel_btn:hover > .crsel_btn-icon > path,
+.crsel_btn:focus-visible > .crsel_btn-icon > path {
+  fill: var(--persimmon, #ff5a5a);
+}
+.crsel_btn--left {
+  float: left;
+  transform: rotate(90deg);
+}
+.crsel_btn--right {
+  clear: right;
+  transform: rotate(-90deg);
+}
+.crsel_btn-icon {
+  width: clamp(3.5rem, 5vw, 4rem);
+  height: clamp(3.5rem, 5vw, 4rem);
+}
 .pastry {
   padding: 1rem;
   width: clamp(10rem, 20vw, 16rem);
