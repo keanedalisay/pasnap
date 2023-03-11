@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="assets/icons/pasnap.svg">
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/index.js" defer></script>
 </head>
 
 <body>
@@ -43,9 +44,10 @@
                 Follow your <br><mark>hunger...</mark>
             </h1>
             <div class="pastry-ctgrs">
-                <div class="cont cont-pastry_ctgrs">
+                <div class="cont cont-pastry_ctgrs" data-slctr="pastry_ctgrs_cont">
                     <div class="crsel_widget">
-                        <button class="crsel_btn crsel_btn--left" type="button" aria-label="Slide category to the left">
+                        <button class="crsel_btn crsel_btn--left" data-slctr="pastry_ctgrs_left_btn" type="button"
+                            aria-label="Slide category to the left">
                             <svg class="crsel_btn-icon" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
                                 stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#414141"
@@ -53,7 +55,7 @@
                                     fill-rule="nonzero" />
                             </svg>
                         </button>
-                        <button class="crsel_btn crsel_btn--right" type="button"
+                        <button class="crsel_btn crsel_btn--right" data-slctr="pastry_ctgrs_right_btn" type="button"
                             aria-label="Slide category to the right">
                             <svg class="crsel_btn-icon" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
                                 stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
