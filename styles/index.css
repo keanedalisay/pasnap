@@ -27,7 +27,7 @@
   top: 50%;
   left: 50%;
   font-size: clamp(2.25rem, 6vw, 5rem);
-  color: var(--btrswt, #ff6f6f);
+  color: var(--persimmon, #ff5a5a);
   line-height: clamp(3.25rem, 8vw, 6.7rem);
   transform: translate(-50%, -50%);
 }
@@ -133,7 +133,7 @@
   top: 20%;
   right: clamp(0%, 10vw, 10%);
   font-size: clamp(2.25rem, 4vw, 4rem);
-  color: var(--btrswt, #ff6f6f);
+  color: var(--persimmon, #ff5a5a);
   line-height: clamp(3.25rem, 7vw, 5.5rem);
 }
 .pastry-ctgrs {
@@ -174,14 +174,14 @@
   background: #d8d8d82a;
   border-radius: 1rem;
   text-decoration: none;
-  color: var(--btrswt, #ff6f6f);
+  color: var(--persimmon, #ff5a5a);
 }
 .pastry:last-of-type {
   margin-right: 2rem;
 }
 .pastry:hover,
 .pastry:focus-visible {
-  background: var(--btrswt, #ff6f6f);
+  background: var(--persimmon, #ff5a5a);
   color: var(--white, #fcfcfc);
 }
 .pastry-img {
@@ -221,5 +221,5 @@
   left: 50%;
   transform: translate(-50%, 0%);
   font-size: clamp(2rem, 5vw, 5rem);
-  color: var(--btrswt, #ff6f6f);
+  color: var(--persimmon, #ff5a5a);
 }
