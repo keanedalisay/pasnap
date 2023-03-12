@@ -181,7 +181,7 @@
   background: transparent;
 }
 .crsel_btn:hover > .crsel_btn-icon > path,
-.crsel_btn:focus-visible > .crsel_btn-icon > path {
+.crsel_btn:focus > .crsel_btn-icon > path {
   fill: var(--persimmon, #ff5a5a);
 }
 .crsel_btn--left {
@@ -213,7 +213,7 @@
   margin-right: 2rem;
 }
 .pastry:hover,
-.pastry:focus-visible {
+.pastry:focus {
   background: var(--persimmon, #ff5a5a);
   color: var(--white, #fcfcfc);
 }

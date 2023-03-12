@@ -193,7 +193,7 @@ body::-webkit-scrollbar-track {
   background: transparent;
 }
 .fig:hover > .fig_dialog,
-.fig:focus-visible > .fig_dialog {
+.fig:focus > .fig_dialog {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -289,7 +289,7 @@ body::-webkit-scrollbar-track {
   height: clamp(3rem, 2vw, 3.5rem);
 }
 .social:hover > svg > path,
-.social:focus-visible > svg > path {
+.social:focus > svg > path {
   fill: var(--persimmon, #ff5a5a);
 }
 @media screen and (max-width: 885px) {
