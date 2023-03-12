@@ -1,0 +1,138 @@
+.mn-ctgrs {
+  width: 100%;
+  height: 8rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: var(--persimmon, #ff5a5a);
+  display: flex;
+  column-gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.cont--ctg {
+  margin: 0 1rem;
+  padding: 0.5rem;
+  column-gap: 4rem;
+  flex-flow: row nowrap;
+  justify-content: left;
+}
+.cont--ctg::-webkit-scrollbar {
+  height: 0rem;
+}
+.cont--ctg::-webkit-scrollbar-track {
+  background: transparent;
+}
+.cont--ctg::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 2rem;
+  height: 50%;
+  background: linear-gradient(
+    to right,
+    #00000000 0%,
+    40%,
+    var(--persimmon, #ff5a5a) 70%
+  );
+}
+.ctg {
+  padding: 0 1.5rem;
+  width: auto;
+  height: 4rem;
+  background: var(--white, #fcfcfc);
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.ctg:hover > .ctg-label,
+.ctg:focus > .ctg-label {
+  color: var(--persimmon, #ff5a5a);
+}
+.ctg-label {
+  height: 100%;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: var(--black, #414141);
+}
+.mn-imgs {
+  padding: 0rem 2rem;
+  margin: clamp(5rem, 7vw, 8rem) 0;
+  width: min(100%, 120rem);
+  min-height: min(90vw, 50rem);
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(3rem, 5vw, 4rem) clamp(4rem, 5vw, 5rem);
+}
+.fig_alert_box {
+  padding: 1rem 2rem;
+  width: min(80%, 70rem);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 1rem;
+  color: var(--persimmon, #ff5a5a);
+  transform: translate(-50%, -50%);
+}
+.fig_alert_box-hdng {
+  font-size: clamp(2rem, 5vw, 4rem);
+  text-align: center;
+  line-height: clamp(3rem, 8vw, 5.7rem);
+}
+.fig_alert_box-txt {
+  margin-top: 4rem;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  text-align: center;
+}
+.fig {
+  width: min(100%, 30rem);
+  position: relative;
+  border-radius: 1rem;
+  background: transparent;
+}
+.fig:hover > .fig_dialog,
+.fig:focus > .fig_dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff6f6fbb;
+}
+.fig-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.fig-txt {
+  margin: 0.5rem 0;
+  width: 100%;
+  position: absolute;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: var(--black, #414141);
+}
+.fig_dialog {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 49.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  border-radius: 1rem;
+}
+.fig_dialog-txt {
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: var(--white, #fcfcfc);
+}
