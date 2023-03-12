@@ -132,7 +132,7 @@ body::-webkit-scrollbar-track {
   padding: 0 1.5rem;
   width: auto;
   height: 4rem;
-  background: var(--white);
+  background: var(--white, #fcfcfc);
   border-radius: 1rem;
   display: flex;
   flex-flow: row nowrap;
@@ -140,9 +140,9 @@ body::-webkit-scrollbar-track {
   align-items: center;
   text-decoration: none;
 }
-.ctg:hover,
-.ctg:focus-visible {
-  background: #fcfcfcd7;
+.ctg:hover > .ctg-label,
+.ctg:focus > .ctg-label {
+  color: var(--persimmon, #ff5a5a);
 }
 .ctg-label {
   height: 100%;
@@ -152,7 +152,7 @@ body::-webkit-scrollbar-track {
   align-items: center;
   font-family: "Rubik", Arial, Helvetica, sans-serif;
   font-weight: 700;
-  color: var(--black);
+  color: var(--black, #414141);
 }
 .mn-imgs {
   padding: 0rem 2rem;
@@ -225,7 +225,7 @@ body::-webkit-scrollbar-track {
 .fig_dialog-txt {
   font-family: "Rubik", Arial, Helvetica, sans-serif;
   font-size: 3rem;
-  color: var(--white);
+  color: var(--white, #fcfcfc);
 }
 
 .ftr {
