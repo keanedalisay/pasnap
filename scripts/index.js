@@ -26,8 +26,10 @@
         behavior: "smooth",
       });
     });
-  } else {
-    ptry_ctgrs_left_btn.remove();
-    ptry_ctgrs_right_btn.remove();
+
+    return;
   }
+
+  ptry_ctgrs_left_btn.remove();
+  ptry_ctgrs_right_btn.remove();
 })();
