@@ -1,4 +1,11 @@
 (() => {
+  const go_down_btn = document.querySelector("[data-bannermain=go_down_btn]");
+  go_down_btn.addEventListener("click", () => {
+    window.scrollTo(0, window.visualViewport.height);
+  });
+})();
+
+(() => {
   const ptry_ctgrs_cont = document.querySelector(
     "[data-slctr=pastry_ctgrs_cont]"
   );

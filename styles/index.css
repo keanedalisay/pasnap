@@ -30,6 +30,35 @@
   line-height: clamp(3.25rem, 8vw, 6.7rem);
   transform: translate(-50%, -50%);
 }
+.banner--main-go_down_btn {
+  position: relative;
+  top: 65%;
+  left: 50%;
+  background: transparent;
+  transform: translate(-50%, 0%);
+  animation: float_up_down 2s ease-in-out infinite;
+  fill: var(--black, #414141);
+}
+.banner--main-go_down_btn > svg {
+  width: clamp(5rem, 10vw, 7rem);
+  height: clamp(5rem, 10vw, 7rem);
+}
+.banner--main-go_down_btn:hover > svg,
+.banner--main-go_down_btn:focus > svg {
+  fill: var(--persimmon, #ff5a5a);
+}
+@keyframes float_up_down {
+  0% {
+    transform: translate(-50%, 0%);
+  }
+  50% {
+    transform: translate(-50%, 80%);
+  }
+  100% {
+    transform: translate(-50%, 0%);
+  }
+}
+
 .cont--hov_figs {
   justify-content: initial;
   align-items: initial;
